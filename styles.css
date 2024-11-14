@@ -174,7 +174,7 @@ section {
 .header-content .left-header .image {
   border-radius: var(--br-sm-2);
   height: 90%;
-  width: 68%;
+  width: 80%;
   margin-left: 4rem;
   background-color: var(--color-black);
   transition: all 0.4s ease-in-out;
@@ -195,7 +195,7 @@ section {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  padding-right: 18rem;
+  padding-right: 7rem;
 }
 .header-content .right-header .name {
   font-size: 3rem;
@@ -406,10 +406,14 @@ section {
   text-align: center;
 }
 
+#portfolio.container{
+  padding: 7rem 3rem;
+}
+
 .portfolios {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  grid-gap: 2rem;
+  grid-gap: 1rem;
   margin-top: 3rem;
 }
 .portfolios .portfolio-item {
@@ -483,6 +487,14 @@ section {
   grid-gap: 2rem;
   margin-top: 3rem;
 }
+
+p#futurepost{
+    width: fit-content;
+    padding: 5px 10px;
+    background: darkolivegreen;
+    border-radius: 7px;
+}
+
 .blogs .blog {
   position: relative;
   background-color: var(--color-grey-5);
